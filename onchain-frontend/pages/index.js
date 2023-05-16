@@ -8,11 +8,6 @@ export default function Home() {
     <div>
       <Header />
       <div className="container">
-        <Head>
-          <title>onchain-nft-app</title>
-          <link rel="icon" href="/favicon.ico" />
-        </Head>
-
         <Navbar bg="light" expand="lg">
           <Container>
             <Navbar.Brand href="/">onchain-nft-app</Navbar.Brand>

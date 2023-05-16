@@ -20,7 +20,6 @@ export default function Home() {
             </Navbar.Collapse>
           </Container>
         </Navbar>
-        <Footer />
       </div>
       <Container>
         <h1>Welcome to onchain-nft-app</h1>

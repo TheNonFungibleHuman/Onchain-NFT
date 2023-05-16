@@ -11,31 +11,33 @@ function getLibrary(provider) {
 
 export default function Home() {
   return (
-    <div>
+    <Web3ReactProvider getLibrary={getLibrary}>
       <Header />
-      <div className="container">
-        <Navbar bg="light" expand="lg">
+      {
+        <div>
+          <Header />
+          <div className="container">
+            <Navbar bg="light" expand="lg">
+              <Container>
+                <Navbar.Brand href="/">onchain-nft-app</Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav">
+                  <Nav className="me-auto">
+                    <Link href="/mint">
+                      <a className="nav-link">Mint NFT</a>
+                    </Link>
+                  </Nav>
+                </Navbar.Collapse>
+              </Container>
+            </Navbar>
+            <Footer />
+          </div>
+
           <Container>
-            <Navbar.Brand href="/">onchain-nft-app</Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="me-auto">
-                <Link href="/mint">
-                  <a className="nav-link">Mint NFT</a>
-                </Link>
-              </Nav>
-            </Navbar.Collapse>
+            <h1>Welcome to onchain-nft-app</h1>
           </Container>
-        </Navbar>
-        <Footer />
-      </div>
-      );
-      <Web3ReactProvider getLibrary={getLibrary}>
-        <Component {...pageProps} />
-      </Web3ReactProvider>
-      <Container>
-        <h1>Welcome to onchain-nft-app</h1>
-      </Container>
-    </div>
+        </div>
+      }
+    </Web3ReactProvider>
   );
 }

@@ -5,7 +5,9 @@ import { Link } from "next/link";
 export default function Home() {
   return (
     <div>
-      <Head />
+      <Head>
+        <title>onchain-nft-app</title>
+      </Head>
       <div className="container">
         <Navbar bg="light" expand="lg">
           <Container>

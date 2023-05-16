@@ -15,8 +15,7 @@ function Mint() {
   }, []);
 
   function handleNameChange(event) {
-    const value = event.target.value ?? "";
-    setName(value);
+    setName(event.target.value);
   }
 
   async function handleMint() {

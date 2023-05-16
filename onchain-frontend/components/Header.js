@@ -1,6 +1,6 @@
 import React from 'react';
 import { Menu } from 'semantic-ui-react';
-import { useWeb3React } from 'web3-react/core';
+import { useWeb3React } from '@web3-react/core';
 import { injected } from './connectors';
 
 export default function Header() {

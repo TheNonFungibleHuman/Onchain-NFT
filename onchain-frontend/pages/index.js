@@ -2,6 +2,12 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { Container, Navbar, Nav } from "react-bootstrap";
 import { Link } from "next/link";
+import { Web3ReactProvider } from "@web3-react/core";
+import { Web3Provider } from "@ethersproject/providers";
+
+function getLibrary(provider) {
+  return new Web3Provider(provider);
+}
 
 export default function Home() {
   return (
@@ -24,6 +30,9 @@ export default function Home() {
         <Footer />
       </div>
       );
+      <Web3ReactProvider getLibrary={getLibrary}>
+        <Component {...pageProps} />
+      </Web3ReactProvider>
       <Container>
         <h1>Welcome to onchain-nft-app</h1>
       </Container>

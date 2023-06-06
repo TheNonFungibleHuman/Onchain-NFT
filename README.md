@@ -1,6 +1,7 @@
 **Onchain NFT App**
 
-This is an onchain NFT (Non-Fungible Token) App that allows users to store metadata onchain as NFTs. The application is built on the Ethereum blockchain and leverages the ERC-721 standard to create unique NFTs for each metadata stored on the blockchain.
+This is an onchain NFT (Non-Fungible Token) App that allows users to store metadata onchain as NFTs. The application is built on the Celo
+blockchain and leverages the ERC-721 standard to create unique NFTs for each metadata stored on the blockchain.
 Requirements
 
     Node.js

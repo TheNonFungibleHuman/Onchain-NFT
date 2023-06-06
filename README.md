@@ -8,15 +8,13 @@ Requirements
     Ganache
 
 **Installation**
-
-    Clone the repository.
-
-git clone (https://github.com/TheNonFungibleHuman/Onchain-NFT).git
-
-    Install the required dependencies.
-
-cd onchain-nft-app
-npm install
+Clone the repository
+   
+    git clone (https://github.com/TheNonFungibleHuman/Onchain-NFT).git 
+   **Install Dependencies**
+     
+    cd onchain-nft-app
+    npm install
 
 **Usage**
 
@@ -24,16 +22,16 @@ npm install
 
 ganache-cli
 
-    Compile and migrate the smart contract.
+  Compile and migrate the smart contract.
 
-truffle compile
-truffle migrate --network alfajores
+    truffle compile
+    truffle migrate --network alfajores
 
-    Start the development server.
+  Start the development server.
 
-npm start
+     npm start
 
-    Open the app in your browser at http://localhost:3000.
+  Open the app in your browser at http://localhost:3000.
 
 **Deployment**
 

@@ -37,12 +37,15 @@ ganache-cli
 **Deployment**
 
 This project has been deployed on the Alfajores Testnet and can be accessed through the following address: [https://alfajores-testnet.onchain-nft-app.com](https://explorer.celo.org/alfajores/address/0x8abA45e7178D26bc1a19637dA577Ba5802014362)
+
 **Compilation**
 
 This project was compiled with the Injected VM environment on Remix IDE.
+
 **Contributing**
 
 Contributions are welcome! If you find any bugs or have suggestions for improvement, please feel free to raise an issue or submit a pull request.
+
 **License**
 
 This project is licensed under the MIT License.

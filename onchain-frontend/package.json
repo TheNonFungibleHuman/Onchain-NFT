@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@celo/connect": "^4.0.0",
-    "@celo/contractkit": "^4.0.0",
+    "@celo/contractkit": "^5.1.0",
     "@truffle/contract": "^4.6.20",
     "@web3-react/injected-connector": "^6.0.7",
     "next": "^13.4.2",
